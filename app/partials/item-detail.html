@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <img ng-src="{{item.imageUrl}}" class="item">
+        </div>
+        <div class="col-lg-6">
+            <h1>{{item.name}}</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <h1>{{item.count}}</h1>
+        </div>
+        <div class="col-lg-6">
+            <button class="btn btn-lg" ng-click="incCount(item)">+</button>
+            <button class="btn btn-lg" ng-click="decCount(item)">-</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            Greater than 10: {{item.count > 10 | checkmark}}
+        </div>
+    </div>
+</div>
+
+
+
+

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "f96-t12-ho",
+    "imageUrl": "images/items/f96t12ho.jpg",
+    "name": "F96 T12 HO",
+    "count": 15
+  },
+  {
+    "id": "f32-t8",
+    "imageUrl": "images/items/f32t8.jpg",
+    "name": "F32 T8",
+    "count": 8
+  },
+  {
+    "id": "100w-a-lamp",
+    "imageUrl": "images/items/100walamp.jpg",
+    "name": "100w A-Lamp",
+    "count": 27
+  }
+]
